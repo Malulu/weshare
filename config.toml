@@ -1,0 +1,96 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Hugo Creative Theme"
+theme = "hugo-creative-theme"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more informtion take a look at the README.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "weSHARE"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Products"
+			portfolio = "Get involved"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "luce is the best"
+		subtitle   = "Today weather data for tomorrow global challenges"
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "The project"
+		description = "We-Share is a project aimed to answer the issue of weather forecasting uncertanty. As a matter of fact, predicting weather behavior is getting crucial for many aspects of our society: from green energy production to the management of natural disasters. For this reason, weSHARE offers more accurate weather data-sets based on a nationwide network of weather stations."
+		buttonText  = "Get started!"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Get involved"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+
+	# Service section
+	[params.services]
+		headline = "Partners"
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "Schools"
+			description = "You can use this theme as is, or you can make changes!"
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Institutions"
+            description = "We update dependencies to keep things fresh."
+
+            [[params.services.list]]
+                    icon = "fa-newspaper-o"
+                    title = "Our network"
+                    description = "We update dependencies to keep things fresh."
+
+
+    # Aside section
+	[params.aside]
+		headline = "Get involved"
+
+		[params.aside.button]
+			text = "Download now"
+			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Interested in our products? Ready to be part of the project? Just contact us!"
+		phone = "+39 339 2547883"
+		email = "info@weshare.com"
