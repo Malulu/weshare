@@ -1,4 +1,4 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://malulu.github.io/weshare/"
 languageCode = "en-us"
 title = "Hugo Creative Theme"
 theme = "weshare"
